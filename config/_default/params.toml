@@ -5,16 +5,16 @@ rssFullContent = true
 favicon = "/favicon.png"
 
 [footer]
-since = 2020
-customText = ""
+since = 2025
+customText = "Enigma_Soul Private Blog"
 
 [dateFormat]
 published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+emoji = "😌"
+subtitle = "老师 我太想进步了"
 
 [sidebar.avatar]
 enabled = true
