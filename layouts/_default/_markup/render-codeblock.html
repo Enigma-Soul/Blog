@@ -1,0 +1,9 @@
+{{- /* render-codeblock render hook for Hugo */ -}}
+{{- $lang := .Language | default "" -}}
+{{- if eq $lang "mermaid" -}}
+  <div class="mermaid">
+    {{ .Inner | safeHTML }}
+  </div>
+{{- else -}}
+  <pre><code class="language-{{ $lang }}">{{ .Inner | safeHTML }}</code></pre>
+{{- end -}}
